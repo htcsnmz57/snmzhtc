@@ -1,0 +1,36 @@
+
+* {
+   color: blue
+}
+#idyesil{
+    color: green;
+}
+.classkırmızı{
+    color: red;
+}
+h1 {
+    color: rgb(0,0,0);
+    background-color: lavender;
+}
+h2{
+    color: rgb(0,0,255);
+}
+h3{
+    color:FFF ;
+}
+
+div{
+    background-color: green;
+}
+div.birinci{
+    opacity: 0.1;
+}
+div.ikinci{
+    opacity: 0.3;
+}
+div.üçüncü{
+    opacity: 0.6;
+}
+body{
+    background-image: url("Minimalist-Telefon-Duvar-Kagitlari-16.jpg");
+}
