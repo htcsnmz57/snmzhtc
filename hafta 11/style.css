@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li{
+    list-style-type: none;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline; /*satır içi öğe oluşturma*/
+}
+ul li:first-child, li:last-child{ /*ilk eleman ve son eleman seçimi*/
+    
+    background-color: cornflowerblue;
+}
+ul li:nth-last-child(3){
+    background-color: crimson;
+}
+ul li:nth-child(2n+1){ /*odd: (2n+1) tek*/
+    background-color: yellow;
+}
+ul li:nth-child(even){ /*even: (2n) çift*/
+    background-color: pink;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+}
+ul li a:first-child, a:last-child{
+    color: darkgreen;
+}
+ul li a:hover{  /*üzerine gelindiğinde*/
+    background-color: salmon;
+    color: brown;
+    padding: 0;
+}
+p::first-line{ /*sınıf özelliği, ilk satır*/
+    font-style: italic;
+    color: burlywood;
+}
+p::first-letter{ /*sınıf özelliği, ilk harf*/
+    font-weight: bold;
+    color: blueviolet;
+}

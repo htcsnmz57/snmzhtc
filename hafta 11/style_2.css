@@ -1,0 +1,12 @@
+p:last-child{
+    color: blue;
+    background-color: black;
+}
+
+p:before{ /*paragraftan önce*/
+    content:url("icon.png")
+}
+
+p:after{ /*paragraftan sonra*/
+    content: ".........>";
+}

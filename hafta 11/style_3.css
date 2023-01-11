@@ -1,0 +1,52 @@
+body{
+background-color: aliceblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kose1{
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background: #ff6666;
+}
+.kose2, .kose3{
+    border-radius: 25px;
+    background-color: #ff6666;
+    border: solid 10px rebeccapurple;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+.kose3{
+    text-align: center; /*metin hizalama: orta*/
+    color: whitesmoke;
+}
+.linear{
+    text-align: center;
+}
+div{
+    width: 300px;
+   height: 100px;
+   margin: 4px;
+  font-size: 20px;
+  padding: 20px;
+}
+div.gradient1{
+    background: linear-gradient(turquoise,black);
+}
+div.gradient2{
+    background: linear-gradient(left,turquoise,black);
+}
+div.gradient3{
+    background: linear-gradient(top left,turquoise,black);
+}
+div.gradient4{
+    background: linear-gradient(turquoise,magenta,black);
+}
+.float p{ /*float sınıfına ait divin */
+text-align: left; /*metin hizalama sol*/
+}
+img{
+    float: left;
+}
